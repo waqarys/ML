@@ -8,8 +8,8 @@ libraryDependencies  ++= Seq(
   "org.scalanlp" %% "breeze" % "0.13.2",
   "org.scalanlp" %% "breeze-natives" % "0.13.2",
   "org.scalanlp" %% "breeze-viz" % "0.13.2",
-  "com.quantifind" %% "wisp" % "latest.integration"
-
+  "com.quantifind" %% "wisp" % "latest.integration",
+  "org.scala-saddle" %% "saddle-core" % "1.3.4"
 )
 
 resolvers += "Sonatype Releases" at "https://oss.sonatype.org/content/repositories/releases/"
